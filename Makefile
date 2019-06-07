@@ -16,6 +16,7 @@ COM =\
 	components/kernel_release\
 	components/keyboard_indicators\
 	components/keymap\
+	components/ibus_engine\
 	components/load_avg\
 	components/netspeeds\
 	components/num_files\

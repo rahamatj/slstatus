@@ -1,10 +1,13 @@
-slstatus - suckless status
-==========================
+# slstatus - suckless status
+
 slstatus is a suckless status monitor for window managers that use WM_NAME
 (e.g. dwm) or stdin to fill the status bar.
 
+This is my fork of [suckless](https://suckless.org/)'s [slstatus](https://git.suckless.org/slstatus/).
+I have added a new feature to get the current IBus Engine. Needs ibus installed and ibus-daemon running for
+it to work.
 
-Features
+## Features
 --------
 - Battery percentage/state/time left
 - CPU usage
@@ -19,6 +22,7 @@ Features
 - Kernel version
 - Keyboard indicators
 - Keymap
+- IBus Engine
 - Load average
 - Network speeds (RX and TX)
 - Number of files in a directory (hint: Maildir)
@@ -30,13 +34,13 @@ Features
 - WiFi signal percentage and ESSID
 
 
-Requirements
+## Requirements
 ------------
 Currently slstatus works on FreeBSD, Linux and OpenBSD.
 In order to build slstatus you need the Xlib header files.
 
 
-Installation
+## Installation
 ------------
 Edit config.mk to match your local setup (slstatus is installed into the
 /usr/local namespace by default).
@@ -47,17 +51,17 @@ necessary as root):
     make clean install
 
 
-Running slstatus
+## Running slstatus
 ----------------
 See the man page for details.
 
 
-Configuration
+## Configuration
 -------------
 slstatus can be customized by creating a custom config.h and (re)compiling the
 source code. This keeps it fast, secure and simple.
 
 
-Todo
+## Todo
 ----
 Cleaning up the whole codebase it the goal before thinking about a release.

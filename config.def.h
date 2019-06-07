@@ -34,7 +34,8 @@ static const char unknown_str[] = "n/a";
  * keyboard_indicators caps/num lock indicators        format string (c?n?)
  *                                                     see keyboard_indicators.c
  * keymap              layout (variant) of current     NULL
- *                     keymap
+ * ibus_engine         current ibus engine             NULL
+ *
  * load_avg            load average                    NULL
  * netspeed_rx         receive network speed           interface name (wlan0)
  * netspeed_tx         transfer network speed          interface name (wlan0)

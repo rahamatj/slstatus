@@ -34,6 +34,9 @@ const char *kernel_release(void);
 /* keyboard_indicators */
 const char *keyboard_indicators(void);
 
+/* ibus_engine */
+const char *ibus_engine(void);
+
 /* keymap */
 const char *keymap(void);
 
