@@ -4,8 +4,11 @@ slstatus is a suckless status monitor for window managers that use WM_NAME
 (e.g. dwm) or stdin to fill the status bar.
 
 This is my fork of [suckless](https://suckless.org/)'s [slstatus](https://git.suckless.org/slstatus/).
-I have added a new feature to get the current IBus Engine. Needs ibus installed and ibus-daemon running for
-it to work.
+
+## My Features
+--------
+- IBus Engine
+- ALSA Volume
 
 ## Features
 --------
@@ -22,7 +25,6 @@ it to work.
 - Kernel version
 - Keyboard indicators
 - Keymap
-- IBus Engine
 - Load average
 - Network speeds (RX and TX)
 - Number of files in a directory (hint: Maildir)

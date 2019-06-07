@@ -12,8 +12,8 @@ X11LIB = /usr/X11R6/lib
 
 # flags
 CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE
-CFLAGS   = -std=c99 -pedantic -Wall -Wextra -Os
-LDFLAGS  = -L$(X11LIB) -s
+CFLAGS   = -std=c99 -pedantic -Wall -Wextra -Os -lasound
+LDFLAGS  = -L$(X11LIB) -s -lasound
 LDLIBS   = -lX11
 
 # compiler and linker

@@ -27,6 +27,7 @@ COM =\
 	components/uptime\
 	components/user\
 	components/volume\
+	components/alsa_vol\
 	components/wifi
 
 all: slstatus
